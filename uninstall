@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sudo rm /usr/local/bin/timer
+sudo rm /usr/local/share/man/man1/timer.1.gz

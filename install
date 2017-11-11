@@ -1,0 +1,6 @@
+#!/bin/sh
+
+make
+sudo cp timer /usr/local/bin/
+sudo cp man/timer.1.gz /usr/local/share/man/man1/
+rm timer
