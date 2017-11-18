@@ -125,7 +125,6 @@ static void do_timer(void) {
 }
 
 static void wait_key_input(char *buf) {
-  printf("quit to [q][Enter]\n");
 
   if (!fgets(buf, sizeof buf, stdin))
     exit(1);
